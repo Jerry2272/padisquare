@@ -1,0 +1,50 @@
+    export const products = [
+  {
+    id: 1,
+    vendorSlug: "jakes-iphone",
+    name: "Iphone 12 pro max",
+    price: 10000,
+    createdAt: "2026-01-10",
+    imgUrl: "/iPhone12.png",
+  },
+  {
+    id: 2,
+    vendorSlug: "jakes-iphone",
+    name: "iPhone 6",
+    price: 90000,
+    createdAt: "2026-01-12",
+      imgUrl: "/iPhone6.png",
+  },
+   {
+    id: 3,
+    vendorSlug: "jakes-iphone",
+    name: "iPhone XR",
+    price: 3310000,
+    createdAt: "2026-01-12",
+      imgUrl: "/iPhoneXr.png",
+  },
+   {
+    id: 4,
+    vendorSlug: "jakes-iphone",
+    name: "iPhone X",
+    price: 90000,
+    createdAt: "2026-01-12",
+      imgUrl: "/iPhoneX.png",
+  },
+   {
+    id: 5,
+    vendorSlug: "jakes-iphone",
+    name: "iPhone Patch",
+    price: 10000,
+    createdAt: "2026-01-12",
+      imgUrl: "/iPhone-patch.png",
+  },
+  {
+    id: 6,
+    vendorSlug: "jakes-iphone",
+    name: "iPhone",
+    price: 10000,
+    createdAt: "2026-01-12",
+      imgUrl: "/iPhone.png",
+  }
+];
