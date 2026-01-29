@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+**Padisquare - Multi-Vendor Marketplace**
 
-## Getting Started
+**Live Demo:** https://padisquare-weld.vercel.app 
 
-First, run the development server:
+Padisquare is a Next.js 14+ multi-vendor marketplace that allows vendors to create their own storefronts. Users can browse, search, sort, and paginate products from multiple vendors.
 
-```bash
+**Features**
+
+Multi-vendor storefronts (/site/[vendorSlug])
+
+Vendor hero banner, logo, and product grid
+
+Product search and sorting (price, newest)
+
+Pagination for large product catalogs
+
+Loading, empty, and error states
+
+Fully responsive UI with TailwindCSS
+
+SEO-friendly metadata per vendor page
+
+dark mode (toggleable theme)
+
+**Getting Started**
+
+Clone the repository:
+
+git clone https://github.com/Jerry2272/padisquare.git
+cd padisquare
+
+
+Install dependencies:
+
+npm install
+# or
+yarn
+# or
+pnpm install
+
+
+Start the development server:
+
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open http://localhost:3000
+ in your browser to view the app.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Project Structure
+app/
+  site/[vendorSlug]/       # Dynamic vendor pages
+  page.tsx                 # Home page
+  layout.tsx               # Global layout 
+public/                    # Static assets (images, logos)
+data/                      # Mock vendors & products
+components/                # Reusable components (Button, ProductGrid, Navbar, Footer)
 
-## Learn More
+Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+Next.js 14+
+ (App Router)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+React 18+
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+TailwindCSS
 
-## Deploy on Vercel
+TypeScript
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is deployed on Vercel:
+
+https://padisquare-weld.vercel.app
+
+To deploy your own version:
