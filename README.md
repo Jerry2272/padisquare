@@ -74,6 +74,4 @@ TypeScript
 
 This project is deployed on Vercel:
 
-https://padisquare-weld.vercel.app
-
-To deploy your own version:
+https://padisquare-weld.vercel.app 
